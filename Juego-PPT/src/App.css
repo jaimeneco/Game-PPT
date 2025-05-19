@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.Botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.Botones button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff20;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Botones button:hover {
+  background-color: #ffffff40;
+}
+
+.Resultado h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.Marcador {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.Grafica {
+  display: flex;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.Grafica > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.5s ease;
+}
+
+.Stats {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.Stats h3 {
+  margin: 0.5rem 0;
+}
