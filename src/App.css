@@ -15,7 +15,7 @@ body {
   border-radius: 15px;
   max-width: 600px;
   width: 100%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
@@ -69,7 +69,7 @@ h1 {
   font-size: 0.9rem;
 }
 
-.Grafica > div {
+.Grafica>div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,4 +84,92 @@ h1 {
 
 .Stats h3 {
   margin: 0.5rem 0;
+}
+
+/* Tablets (máx. 768px) */
+@media (max-width: 768px) {
+  .Container {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .Botones {
+    gap: 0.8rem;
+  }
+
+  .Botones button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .Resultado h2 {
+    font-size: 1.3rem;
+  }
+
+  .Marcador {
+    font-size: 1rem;
+  }
+
+  .Grafica {
+    height: 28px;
+    font-size: 0.85rem;
+  }
+
+  .Stats {
+    font-size: 0.95rem;
+  }
+}
+
+/* Móviles (máx. 480px) */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .Container {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .Botones {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .Botones button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .Resultado h2 {
+    font-size: 1.2rem;
+  }
+
+  .Marcador {
+    font-size: 0.95rem;
+  }
+
+  .Grafica {
+    height: 25px;
+    font-size: 0.8rem;
+  }
+
+  .Stats {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .Stats h3 {
+    font-size: 1rem;
+  }
 }
